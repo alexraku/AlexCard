@@ -18,7 +18,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 270, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .clipShape(Circle())
-                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                    .overlay(Circle().stroke(Color.white, lineWidth: 3))
                 Text("Alex Raku")
                     .font(.custom("Pacifico-Regular", size: 40))
                     .bold()
