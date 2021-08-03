@@ -13,6 +13,7 @@
 		FAE6213A26B1703C00AF0492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6213926B1703C00AF0492 /* ContentView.swift */; };
 		FAE6213C26B1703D00AF0492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6213B26B1703D00AF0492 /* Assets.xcassets */; };
 		FAE6213F26B1703D00AF0492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6213E26B1703D00AF0492 /* Preview Assets.xcassets */; };
+		FAF89E2826B96F7500DFE49A /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF89E2726B96F7500DFE49A /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAE6213B26B1703D00AF0492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE6213E26B1703D00AF0492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAE6214026B1703D00AF0492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF89E2726B96F7500DFE49A /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		FAE6213626B1703C00AF0492 /* AlexCard */ = {
 			isa = PBXGroup;
 			children = (
+				FAF89E2626B96F5300DFE49A /* Views */,
 				FA7C423526B186D100669D16 /* fonts */,
 				FAE6213726B1703C00AF0492 /* AlexCardApp.swift */,
 				FAE6213926B1703C00AF0492 /* ContentView.swift */,
@@ -81,6 +84,14 @@
 				FAE6213E26B1703D00AF0492 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF89E2626B96F5300DFE49A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF89E2726B96F7500DFE49A /* OtherView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				FAE6213A26B1703C00AF0492 /* ContentView.swift in Sources */,
 				FA7C423926B1961600669D16 /* InfoView.swift in Sources */,
 				FAE6213826B1703C00AF0492 /* AlexCardApp.swift in Sources */,
+				FAF89E2826B96F7500DFE49A /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
