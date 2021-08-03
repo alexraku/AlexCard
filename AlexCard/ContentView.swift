@@ -16,7 +16,7 @@ struct ContentView: View {
                 Image("alex")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 200, height: 270, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 270, height: 270, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 3))
                 Text("Alex Raku")
